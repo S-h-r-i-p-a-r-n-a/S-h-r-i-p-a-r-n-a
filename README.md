@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @S-h-r-i-p-a-r-n-a
 - 👀 I’m interested in Coding as well as developing!
 - 🌱 I’m currently learning Web-development.
-- 
+ 
 -📫 How to reach me through instagram: ___shriparna29___
 - 😄 Pronouns: She/her
   
