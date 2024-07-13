@@ -2,7 +2,7 @@
 - 👀 I’m interested in Coding as well as developing!
 - 🌱 I’m currently learning Web-development.
  
--📫 How to reach me through instagram: ___shriparna29___
+📫 How to reach me through instagram: ___shriparna29___
 - 😄 Pronouns: She/her
   
 
