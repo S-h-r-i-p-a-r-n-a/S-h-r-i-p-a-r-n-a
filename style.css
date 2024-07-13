@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:root{
+    --first-color: #12ac8e;
+    --first-color-dark:#0d846c;
+    --first-color-light: #e9f7f7;
+    --second-color: #fb923c;
+    --text-dark: #333333;
+    --text-light: #767268;
+    --white: #ffffff;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+    overflow-x: hidden;
+    font-family:"Poppins", sans-serif ;
+}
+header{
+    background: linear-gradient(
+        to right,
+        rgba(18,172,142,0.9),
+        rgba(18,172,142,0.6)
+    ),
+    url(microscope.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;left: 0;right: 0;bottom: 0;
+}
+.first{
+    display: flex;
+   justify-content: space-around;
+}
+.first .logo{
+    margin-top: 2.2rem;
+    margin-left: -3rem;
+}
+.logo h2{
+    color: var(--white);
+    font-size: 2rem;
+}
+.logo span{
+    color: var(--second-color);
+    font-size: 2rem;
+}
+.first .navbar{
+    margin-top: 2.5rem;
+}
+.first .navbar a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 0rem 2rem;
+    cursor: pointer;
+}
+.first .navbar a:hover{
+    text-decoration: underline;
+}
+.first .btn{
+    margin-top: 1.5rem;
+}
+.btn{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--second-color);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: grab;
+}
+.second{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+.second .row h1{
+    color: white;
+    margin-left: 10rem;
+    margin-top: -1rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.second .row p{
+    color: var(--first-color-light);
+    margin-left: 8rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding: 1rem 2rem;
+}
+.second .row .btn{
+    margin-left: 10rem;
+    line-height: 4rem;
+}
+.form{
+    padding: 8rem 2rem;
+    border-radius: 2rem;
+    margin-right: 6rem;
+    margin-top: -3rem;
+    width: 90%;
+}
+.form h3{
+    color: var(--first-color-dark);
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+ .form form{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--white);
+    border-radius: 1.5rem;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form input{
+    padding: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--first-color);
+    background-color: var(--first-color-light);
+    border-radius:0.5rem;
+}
+
+.form input::placeholder{
+    color: var(--first-color);
+}
+
+.form .button{
+    background-color: var(--first-color-dark);
+    color: var(--white);
+    transition: 1s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.form .button:hover{
+    background-color: var(--first-color);
+}
+.services .layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.services .layout h2{
+   font-weight: bolder;
+    margin-left: 5rem;
+    font-size: 2rem;
+}
+.services .layout p{
+    margin-top: 6rem;
+    margin-left: -58.5rem;
+    color: var(--text-light);
+    max-width: 550px;
+    line-height: 1.5rem;
+}
+.services .btnn{
+ text-decoration: none;
+ text-align: center;
+ cursor: pointer;
+ color: var(--first-color);
+ background: var(--white);
+ outline: none;
+ padding: 0.75rem 1.5rem;
+ border: 1px solid var(--first-color-dark);
+border-radius: 1rem ;
+font-size: 1rem;
+transition: 1s;
+margin-right: 6rem;
+margin-top: 4rem;
+}
+
+.btnn:hover{
+    color: var(--white);
+    background-color: var(--first-color);
+}
+.services .box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+  margin: 4rem 13rem;
+}
+.services .box .box1{
+    border-radius: 1rem;
+    overflow-x: hidden;
+    min-height: 20rem;
+    max-width: 20rem;
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.1) ;
+}
+.services .box .box2{
+    border-radius: 1rem;
+    overflow-x: hidden;
+    min-height: 20rem;
+    max-width: 20rem;
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.1) ;
+}
+
+.services .box .box3{
+    border-radius: 1rem;
+    overflow-x: hidden;
+    min-height: 20rem;
+    max-width: 20rem;
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.1) ;
+}
+
+.services .box .icons{
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem 8rem;
+    color: var(--first-color-dark);
+    background-color: var(--first-color-light);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+.services .box .icons:hover{
+color: var(--first-color-light);
+background-color: var(--first-color);
+}
+.services .box .box1 h2{
+   text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 3rem;
+}
+.services .box .box2 h2{
+    text-align: center;
+     font-size: 2rem;
+     font-weight: bolder;
+     line-height: 3rem;
+ }
+ .services .box .box3 h2{
+    text-align: center;
+     font-size: 2rem;
+     font-weight: bolder;
+     line-height: 3rem;
+ }
+.services .box  p{
+    font-size: 1rem;
+    text-align: center;
+}
+.services .box h5{
+    margin-top: 3rem;
+    text-align: center;
+    color: var(--first-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.services .box h5:hover{
+    text-decoration: underline;
+}
+.aboutus .container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4rem;
+}
+.aboutus .container .content h2{
+    margin-left: 15rem;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    margin-top: 5rem;
+}
+.aboutus .container .content p{
+    max-width: 600px;
+    margin-left: 15rem;
+    color: var(--text-light);
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+.aboutus .container .image img{
+    height: 450px;
+    width: 350px;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+}
+.pages .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.pages .boxes .img{
+    margin-left: 22rem;
+    margin-top: 8rem;
+}
+.pages .boxes img{
+    height: 500px;
+    width: 350px;
+    border-radius: 1rem;
+}
+.pages .boxes .writing{
+    margin-top: 10rem;
+}
+.pages .boxes .writing h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.pages .boxes .writing p{
+    max-width: 400px;
+    color: var(--text-light);
+}
+.pages .boxes .details{
+  margin-top: -30rem;
+   margin-left: 48rem;
+   display: grid;
+   grid-template-columns: 80px 380px;
+   gap: 2rem;
+   padding: 5rem 0rem;
+}
+.pages .boxes .details .icn{
+    display: inline-block;
+    font-size: 2.5rem;
+    color: var(--first-color);
+   background-color: var(--first-color-light);
+   max-height: 80px;
+   padding: 1rem 1.2rem;  
+   box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.pages .boxes .details .wts h4{
+ font-size: 1.5em;
+ font-weight: bold;
+}
+.pages .boxes .details .wts p{
+    color: var(--text-light);
+    line-height: 1.5rem;
+}
+.blog .begin{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.blog .begin .start{
+    margin-left: 10rem;
+    margin-top: 6rem;
+}
+.blog .begin .start h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 4rem;
+}
+.blog .begin .start p{
+    color: var(--text-light);
+    max-width: 800px;
+    line-height: 1.5rem;
+}
+.blog .begin .arrows{
+    margin-top: 7rem;
+    margin-left: 15rem;
+    cursor: pointer;
+}
+.blog .begin .arrows .fa-arrow-left{
+    color: var(--first-color-dark);
+    padding: 1rem 1rem;
+    background-color: var(--first-color-light);
+    font-size: 1rem;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+   
+}
+.blog .begin .arrows .fa-arrow-right{
+    color: var(--first-color-dark);
+    padding: 1rem 1rem;
+    background-color: var(--first-color-light);
+    font-size: 1rem;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 1rem;
+}
+.next{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.next .doctors{
+    background: var(--white);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 2.5%;
+    overflow: hidden;
+    text-align: center;
+    min-height: 450px;
+}
+.next .doctors .imgg{
+    position: relative;
+    overflow: hidden;
+}
+.next .doctors img{
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+}
+.next .doctors .imgg .icnn{
+    position: absolute;
+    bottom: -4rem;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: .5s;
+}
+.next .doctors:hover .imgg .icnn{
+    bottom: 9rem;
+}
+.next .doctors  .icnn .fa-instagram ,.fa-facebook , .fa-heart ,.fa-twitter{
+    font-size: 2rem;
+    display: inline-block;
+    color: var(--text-dark);
+    background: var(--first-color-light);
+    padding: 0.25rem .5rem;
+    height: 2.5rem;
+    width: 20%;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.next .doctors  .icnn .fa-instagram:hover ,.fa-facebook:hover , .fa-heart:hover ,.fa-twitter:hover{
+    color: var(--first-color-light);
+    background-color: var(--first-color);
+}
+.next .doctors .remain h4{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+.next .doctors .remain p{
+    color: var(--text-light);
+    font-size: 1.2rem;
+    line-height: 3rem;
+    padding-right: 0.5rem;
+}
+.footer .items{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    margin-top: 6rem;
+    background: var(--first-color-light);
+}
+.footer .items .lists h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--first-color);
+   margin-top: 1rem;
+   margin-left: 4rem;
+    
+}
+.footer .items .lists h3 span{
+    color: var(--second-color);
+}
+.footer .items .lists2 h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--first-color);
+   margin-left: 4rem;
+    line-height: 4rem;
+}
+.footer .items .lists2 a{
+    text-decoration: none;
+    color: var(--text-dark);
+    display: block;
+    margin-left: 4rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+.footer .items .lists2 a:hover{
+    text-decoration: underline;
+}
+.footer .items .lists p{
+    max-width: 500px;
+    line-height: 1.5rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+.footer .items .lists i{
+    display: block;
+}
+.footer .items .lists3 h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--first-color);
+   margin-left: 8rem;
+    line-height: 4rem;
+}
+.footer .items .lists3 p{
+    margin-left: 7rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: var(--text-dark);
+    cursor: pointer;
+}
+.footer .items .lists3 p:hover{
+    text-decoration: underline;
+}
+.footer .items .lists3 i{
+ color: var(--first-color-dark);
+ padding: 0rem 1rem;
+}
