@@ -1,10 +1,9 @@
 - 👋 Hi, I’m @S-h-r-i-p-a-r-n-a
 - 👀 I’m interested in Coding as well as developing!
 - 🌱 I’m currently learning Web-development.
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me through instagram: ___shriparna29___
+-📫 How to reach me through instagram: ___shriparna29___
 - 😄 Pronouns: She/her
-- ⚡ Fun fact: ...
+  
 
 <!---
 S-h-r-i-p-a-r-n-a/S-h-r-i-p-a-r-n-a is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
